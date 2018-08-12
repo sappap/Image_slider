@@ -1,0 +1,83 @@
+#container{
+    
+    height: 1400px;
+    width: 1600px;
+    margin: 20px auto;   
+    
+    /*    //container box margin top,bottom=20px,left,right=auto adjust to screen*/
+    
+    position: relative;
+}
+
+
+#img{
+    
+    height: 400px;
+    width: 600px;
+       position: absolute; 
+        margin: 80px 420px;     
+    
+/*  img margin from  top bottom =80px, left, right=420px*/
+
+}
+
+
+#left_holder{ 
+/*        container box at lefttholder*/
+    
+    position: absolute; 
+    
+
+    top: 0px;
+    left: 0px;
+    height: 450px;
+    width: 100px;
+    
+}
+
+#right_holder{     
+/*    container/box at rightholder*/
+
+    position: absolute;    
+/*        dynamic*/
+ 
+    
+    
+    top: 0px;    /*    closer to top */
+    
+    
+      
+    
+    right: 0px;  /*    closer to right*/
+    
+
+    
+ 
+
+    height: 450px; /*    height of right_holder symbol of a box*/
+
+    width: 100px; /*    width of right_holder symbol of a box*/
+    
+    
+}
+.left{  /*    left onclick function*/
+    
+
+    height: 50px;
+    width: 50px;
+    left: 0px; /*    stick to left*/
+     position: absolute;
+    top: 60%;
+}
+
+.right{  /*    right onclick function button size not box*/
+    
+    height: 50px; /*    right onclick function button height size*/
+
+    width: 50px; /*    right onclick function button width size*/
+
+    right: 0px;  /*    stick to right*/
+     position: absolute; /*    dynamic*/
+      top: 60%; /*    from top 60%*/
+
+}
